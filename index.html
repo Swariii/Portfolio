@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio: Ser John</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN para sa mga icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="site-nav">
+        <h1 class="logo">Ser John</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn" href="#contact">Hire me</a>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hello! I'm Ser John, a passionate web developer.</p>
+            <a class="btn btn-lg" href="#projects">See my work</a>
+            <img src="images/pfp2.png" alt="Ser John" class="hero-image">
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <h4>Background</h4>
+            <p>I am a web developer with experience in building responsive and user-friendly websites. I enjoy learning new technologies and improving my skills.</p>
+
+            <h4>Education</h4>
+            <p>I have a background in computer programming and have completed various courses in web development, including HTML, CSS, JavaScript, and React. I have also studied Computer Programming at the Oriental Mindoro National High School, where I gained a solid foundation in programming concepts and problem-solving skills.</p>
+
+            <h4>Experience</h4>
+            <div class="stats">
+                <div class="stat projects-delivered"><strong>4</strong><span>Projects delivered</span></div>
+                <div class="stat yearsofexperience"><strong>2+</strong><span>Years of experience</span></div>
+                <div class="stat toolkits"><strong>12</strong><span>Tools in my toolkit</span></div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>HTML, CSS, JavaScript, Java</li>
+                <li>React, Node.js</li>
+                <li>Responsive Design</li>
+                <li>Version Control (Git)</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="project">
+                    <img src="images/foodsail.png" alt="FoodSail Screenshot">
+                    <h3>FoodSail</h3>
+                    <p>A web application for discovering and ordering fresh fish for fish vendors.</p>
+                </article>
+                <article class="project">
+                    <img src="images/pizzarap.png" alt="Pizzarap Screenshot">
+                    <h3>Pizzarap</h3>
+                    <p>A web application for ordering pizza online with a modern UI and seamless checkout experience.</p>
+                </article>
+                <article class="project">
+                    <img src="images/omofficialwebsite.png" alt="OMNHS improvised Screenshot">
+                    <h3>OMNHS improvised</h3>
+                    <p>An improvised official website for Oriental Mindoro National High School.</p>
+                </article>
+                <article class="project">
+                    <img src="images/librarymanagementwebsite.png" alt="OMNHS Library Management System Screenshot">
+                    <h3>OMNHS Library Management System</h3>
+                    <p>A web application for managing the library resources and facilitating book borrowing and returning.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
+            <ul class="contact-links">
+                <!--Icon links-->
+                <li><a href="mailto:swarii@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email" title="Email"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://github.com/Swariii" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.tiktok.com/@serjohn" target="_blank" rel="noopener noreferrer" aria-label="TikTok" title="TikTok"><i class="fab fa-tiktok"></i></a></li>
+                <li><a href="https://www.instagram.com/serjohn/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/serjohn" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+            <hr class="contact-divider">
+            <form action="mailto:swarii@gmail.com" method="POST" enctype="text/plain">
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="field full">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-lg">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Ser John. All rights reserved.</p>
+        <!--footer nav-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
